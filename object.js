@@ -115,5 +115,6 @@ console.log(myObject["b"]);
 
 const propertyName = "c";
 console.log(myObject[propertyName]);
+console.log('what is your name');
 
 
