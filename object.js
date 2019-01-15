@@ -117,4 +117,7 @@ const propertyName = "c";
 console.log(myObject[propertyName]);
 console.log('what is your name');
 
+console.log("this is my fatching test");
+
+
 
