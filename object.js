@@ -106,17 +106,98 @@
  * 
  * Bracket notation
  */
-let myObject = {
-  a:true,
-  b:null,
-  c:25
-};
-console.log(myObject["b"]);
+// let myObject = {
+//   a:true,
+//   b:null,
+//   c:25
+// };
+// console.log(myObject["b"]);
 
-const propertyName = "c";
-console.log(myObject[propertyName]);
-console.log('what is your name');
-console.log("uptodate");
+// const propertyName = "c";
+// console.log(myObject[propertyName]);
+// console.log('what is your name');
+// console.log("uptodate");
+
+
+/**
+ * CHALLENGE 2
+ * 
+ * Create variable "myObject" and add property "a" -10.
+ * Create another variable "copyOfMyObject" and its value should be myObject.
+ * Add new property "b" with value false to the "copyOfMyObject".
+ * Print to the console "myObject" and "copyOfMyObject" and interpret results.
+ */
+// let myObject = {a:10};
+
+// let copyOfMyObject = myObject;
+// copyOfMyObject.b = false;
+// console.log(myObject);
+// console.log(copyOfMyObject);
 
 
 
+/**
+ * ESAMPLE 3
+ * 
+ * Bracket notation
+ */
+// let myObject = {
+//   a: true,
+//   b:null,
+//   c:25
+// };
+// console.log(myObject["a"]);
+
+// const propertyName = "c";
+// console.log(myObject[propertyName]);
+
+// myObject["new" + "Property" + "Name"] = "Value for dynamically computed property name";
+// console.log(myObject);
+
+
+
+/**
+ * EXAMPLE 4
+ * 
+ * Missing properties
+ */
+// const myObject = {
+//   a:3,
+//   b: true
+// };
+
+// // code exectution is not stopped
+// console.log(myObject.c);
+
+// code exectution is  stopped
+// console.log(sabbir);
+
+
+/**
+ * CHALLENGE 3
+ * 
+ * Create object "objectWithNestedObject" with initial value {}.
+ * Add property "nestedObject" with initial value {}.
+ * Add property "a" with value "null" to "nestedObject".Use bracket notation.
+ * Add property "b" with value "true" to "nestedObject".Use bracket notation. Create new variable with property name
+ */
+// let objectWithNestedObject ={};
+
+// objectWithNestedObject.nestedObject = {};
+// console.log(objectWithNestedObject);
+
+// objectWithNestedObject.nestedObject.a = null;
+// objectWithNestedObject.nestedObject["b"] = true;
+// console.log(objectWithNestedObject);
+
+// console.log(objectWithNestedObject.nestedObject.a);
+// console.log(objectWithNestedObject.nestedObject.b);
+
+const myCity = {
+  city: "Mymensing",
+  cityGreeting: function what() {
+    console.log("Greetings!!");
+    
+  }
+}
+myCity.cityGreeting();
