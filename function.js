@@ -168,10 +168,56 @@
 // Solve Simplified ========================
 
 
-function outerFunction(a, b) {
-  function innerFunction(squar) {
-    return squar * squar;
-  }
-  console.log(innerFunction(a + b));
-}
-outerFunction(2, 8);
+// function outerFunction(a, b) {
+//   function innerFunction(squar) {
+//     return squar * squar;
+//   }
+//   console.log(innerFunction(a + b));
+// }
+// outerFunction(2, 8);
+
+
+
+//===================================
+// setTimeout(() => {
+//   console.log("sabbir");
+  
+// }, 1000);
+
+
+
+
+/**
+ * EXAMPLE 1
+ * 
+ * Try to "declare" function expression
+ */
+// function dd(){};
+
+
+/**
+ * EXAMPLE 2
+ * 
+//  * Assign function expression to the variable  
+//  */
+// const myFunction = function () {};
+// console.log(myFunction());
+// console.log(myFunction);
+
+/**
+ * EXAMPLE 3
+ * 
+ * Callback function
+ */
+
+ let i = 1;
+const stop = setInterval(() => {
+  console.log(`Here is message number ${i}`);
+  i++;
+
+}, 2000);
+
+setTimeout( () => {
+  clearInterval(stop);
+  
+}, 12000);
