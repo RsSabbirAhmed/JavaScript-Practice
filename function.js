@@ -210,18 +210,14 @@
  * Callback function
  */
 
- let i = 1;
-const stop = setInterval(() => {
-  console.log(`Here is message number ${i}`);
-  i++;
+//  let i = 1;
+// const stop = setInterval(() => {
+//   console.log(`Here is message number ${i}`);
+//   i = i +1;
 
-}, 2000);
+// }, 2000);
 
-setTimeout( () => {
-  clearInterval(stop);
+// setTimeout( () => {
+//   clearInterval(stop);
   
-}, 12000);
-
-console.log("this is shabbo");
-
-
+// }, 12000);
