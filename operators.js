@@ -323,4 +323,37 @@
  
  
  
- 
+//  /**
+//   *TASK 3
+//   *
+//   *What will be logged to the console?
+//   */
+//   console.log(3 || true && null || false);
+// // step 1: true && null -> null
+// // step 2: 3 || null -> 3
+// // result: 3
+
+
+
+/**
+  * TASK 4
+  *
+  * Find alternatives
+  */
+
+  let a = 10;
+
+  a = a + 1;
+  // a += 1;
+
+  a = a * 2;
+  // a *= 2;
+
+  a = a - 5;
+  // a -= import {  } from "module";5;
+
+  a = a / 2;
+  // a /= 2;
+  
+  console.log(a);
+  
