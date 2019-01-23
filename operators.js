@@ -241,14 +241,86 @@
 
 
 
+// /**
+//  * SECTION 4
+//  * 
+//  * Operators Precedence
+//  */
+// console.log(2 + 4 * 10);
+// console.log((2+4)*10);
+
+
+// let a;
+// a = 1;
+
+// a = a + 5;
+// console.log(a);
+
+
+
+
+// /**
+//  * SECTION 5
+//  * 
+//  * Operators Associativity
+//  */
+
+//  let a,b;
+//  b = 3;
+//  a = b = 5; //right to left
+//  console.log(a,b);
+//  console.log(4 + 5 + 6); // left to right
+//  console.log(5 * 10 / 2); // left to right
+//  console.log(5 * 10 / 2 / 5); // left to right
+//  console.log(4 / 2 * 2); // left to right
+ 
+//  console.log(5 * 10 /( 10 / 5)); // left to right and first brackets first 
+ 
+ 
+
+
 /**
- * SECTION 4
+ * JS-BASICS/CORE/CHALLENGES/02-operators
  * 
- * Operators Precedence
  */
-console.log(2 + 4 * 10);
-console.log((2+4)*10);
+ 
+//  /**
+//   * TASK 1
+//   * 
+//   * Compare 2 variables "myVariable" and "myVariable2".
+//   * Log to the console "true" if "myVariable" is less than or equal to "myVariable2".
+//   * Convert both variables to numbers before comparison.
+//   */
+
+//   let myVariable,myVariable2;
+//   myVariable = 10;
+//   myVariable2 ="5";
+
+// console.log(+myVariable <= +myVariable2);
 
 
+//  myVariable = "20";
+//  myVariable2 = 100;
+
+//  console.log(+myVariable <= +myVariable2);
 
 
+// /**
+//  * TASK 2
+//  * 
+//  * Print to console remainder of the division of "myNumber1" by "myNumber2".
+//  * Which precedence and associativity has this operator?
+//  */
+
+//  let myNumber1 = 10;
+//  let myNumber2 = 3;
+
+//  console.log(myNumber1 % myNumber2);
+//  console.log(25 % 5);
+//  console.log(14 % 8);
+
+//  console.log(100 % 30 % 3); // left to right
+ 
+ 
+ 
+ 
