@@ -150,16 +150,105 @@
 
 
 
-/**
- * SECTION 3
- * 
- * Logical operators
- */
+// /**
+//  * SECTION 3
+//  * 
+//  * Logical operators
+//  */
 
-console.log(true || false);
-console.log(false || true);
-console.log("abc" || "");
-console.log("" || "abc");
-console.log("" || "");
+// //  OR operator ||
+
+// console.log(true || false);
+// console.log(false || true);
+// console.log("abc" || "");
+// console.log("" || "abc");
+// console.log("" || "");
+
+// // Falsy values
+// console.log("" || 0 || null || undefined || NaN || false);
+
+
+// let city;
+// const defaultCity = "New York";
+
+// let myCity = city || defaultCity;
+// console.log(myCity);
+// console.log("__________");
+
+// let myOtherCity = city || console.log("Fill in city please")
+//  || defaultCity;
+// console.log(myOtherCity);
+
+
+// console.log("__________");
+
+// city = "Los Angeles";
+// myCity = city || defaultCity;
+
+// console.log(myCity);
+
+// // AND operator &&
+// console.log("__________");
+
+// console.log(true && false);
+// console.log(false && true);
+// console.log("__________");
+
+// // AND returns value of the first "falsy" operand
+// console.log("" && "abc");
+// console.log("abc" && "");
+// console.log("__________");
+
+// console.log("abc" && 10 && false && "" && "abcd");
+// console.log("abc" && 10 && NaN && "" && "abcd");
+// console.log("abc" && 10 && "" && "abcd");
+
+// // ALL operands are "truthy"
+// console.log("__________");
+// console.log("abc" && 10 && true && 123 && "Hello World");
+// console.log("__________");
+
+
+// // NOT operator !
+
+// console.log(!"abc");
+// console.log(!20);
+// console.log(!"");
+// console.log(!0);
+// console.log(!null);
+// console.log(!NaN);
+// console.log(!undefined);
+
+
+// let myVariable;
+// myVariable = undefined;
+// console.log(!myVariable);
+
+
+// myVariable = "RsSabbir";
+// console.log(!myVariable);
+
+// console.log(!true);
+// console.log(!false);
+
+
+// // Quick truthy/falsy check
+
+// myVariable = null;
+// console.log(!!myVariable);
+// myVariable = 10;
+// console.log(!!myVariable);
+
+
+
+/**
+ * SECTION 4
+ * 
+ * Operators Precedence
+ */
+console.log(2 + 4 * 10);
+console.log((2+4)*10);
+
+
 
 
