@@ -161,8 +161,126 @@
 
 
 
+// /**
+//  * EXAMPLE 4
+//  * 
+//  * Square bracket notation
+//  */
+
+//  const myArray = [1, 2];
+//  console.log(myArray[0]);
+// //  console.log(myArray.0); 
+// // if property name is the object is numeric you can't use dot notation 
+ 
+ 
+
+
+
+// /**
+//  * EXAMPLE 5
+//  * 
+//  * Delete elements
+//  */
+
+//  const myArray = [true, null ,1 ,2, "abc"];
+//  console.log(myArray);
+
+//  delete myArray[2];
+// console.log(myArray); // element with index 2 is "empty"
+//  console.log(myArray [2]);
+ 
+//  myArray.pop();
+//  console.log(myArray);
+// myArray.pop();
+// console.log(myArray);
+//  myArray.shift();
+//  console.log(myArray);
+ 
+
+
+// /**
+//  * EXAMPLE 6
+//  * 
+//  * Compare Arrays
+//  */
+
+//  const myArray1 =[1, 2, 3];
+//  const myArray2 = [1, 2, 3];
+
+//  console.log(myArray1 === myArray2);
+
+//  const copyOfMyArray1 = myArray1;
+//  console.log(copyOfMyArray1 === myArray1);
+ 
+//  console.log(myArray1.toString() === myArray2.toString());
+ 
+
+
+// /**
+//  * CHALLENGE 1
+//  * 
+//  * Add elements at the beginning of the Array
+//  * First add string "Hello"
+//  * Second add number 100
+//  */
+
+//  const myArray = [true, null];
+//  myArray.unshift(100,"Hello");
+//  console.log(myArray);
+ 
+
+
+
+
+// /**
+//  *  CHALLENGE 2
+//  * 
+//  * Add element at the specific index
+//  * Element "abc" with index 10.
+//  * Log to the console Array and explain results.
+//  * What is the length of the final Array?
+//  */
+
+//  const myArray = [1, 2];
+//  myArray[10] = "abc";
+//  console.log(myArray);
+ 
+
+
+
 /**
- * EXAMPLE 4
+ * CHALLENGE 3
  * 
- * Square bracket notation
+ * Array of objects.
+ * 
+ * Create Array with 3 objects
+ * Each object will have two properties - carBrand, price.
+ * Add one more object to the Array
  */
+
+const arrayOfCars = [
+  {
+  carBrand:"Toyota",
+  price: 12000
+},
+{
+    carBrand: "Tesla",
+    price: 30000
+},
+{
+    carBrand: "BMW",
+    price: 25000
+}
+];
+
+
+console.log(arrayOfCars);
+
+const newCar = {
+  carBrand: "Honda",
+  price: 10000
+};
+
+arrayOfCars.push(newCar);
+
+ console.log(arrayOfCars);
