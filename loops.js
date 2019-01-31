@@ -100,3 +100,60 @@
 // }// this loop can't be used with objects,this is only for Arrays
 
 // // For of loop is not able to access with "objects" because object are not iterable
+
+
+// ========== Practices ==================
+
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+  
+// }
+
+
+// // Ternary Operator===============
+
+// let s =65;
+// s > 10
+//    ? console.log("hi") 
+//    : console.log("hello");
+
+
+
+
+
+
+// /**
+//  * EXAMPLE 1
+//  * 
+//  * "if" statement
+//  */
+
+// let i =10;
+
+// if (i > 0) {
+//    console.log(i);
+// }
+
+// if (i) {
+//   console.log(i);
+  
+// }
+
+
+
+
+/**
+ * EXAMPLE 2
+ * 
+ * "if else" statement
+ */
+
+
+
+
+
+
+
+
+
+
