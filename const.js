@@ -10,7 +10,7 @@
 // let pi = Math.PI;
 // console.log(pi);
 
-// Histing 
+// Hosting 
 
 const e = 5;
 function fn() {
