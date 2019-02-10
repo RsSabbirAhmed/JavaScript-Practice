@@ -21,22 +21,46 @@
 
 
 
-// EXAMPLE 2 - Function Constructor
 
+// // EXAMPLE 2 - Function Constructor
+
+
+// // You must always use tradition function  for function constructor
 // function GroceryItem(title, kind) {
 //   this.title = title;
 //   this.kind = kind;
 // }
 
 
-// "Uncaught TypeError: GroceryItem is not a constructor" it means i can't use "Arrow" function for creating "function Constructor" 
-const GroceryItem = (title, kind) =>{
-  this.title = title;
-  this.kind = kind;
-}
+// // // "Uncaught TypeError: GroceryItem is not a constructor" it means i can't use "Arrow" function for creating "function Constructor" 
 
-const apple = new GroceryItem("Apple", "fruite");
-console.log(apple);
+// // const GroceryItem = (title, kind) =>{
+// //   this.title = title;
+// //   this.kind = kind;
+// // }
 
-const brocolli = new GroceryItem("brocolli", "vagetable");
-console.log(brocolli);
+
+
+// GroceryItem.prototype.info = function () {
+//   return this.title + " is " + this.kind;
+// };
+
+
+// // // "this" is Window and funcion always returns "undefined is undefined"
+// // GroceryItem.prototype.info =  () => {
+// //   console.log(this);// window
+  
+// //   return this.title + " is " + this.kind;
+// // };
+
+
+
+
+// const apple = new GroceryItem("Apple", "fruite");
+// // console.log(apple);
+// console.log(apple.info());
+
+// const brocolli = new GroceryItem("Brocolli", "vagetable");
+// // console.log(brocolli);
+// console.log(brocolli.info());
+
