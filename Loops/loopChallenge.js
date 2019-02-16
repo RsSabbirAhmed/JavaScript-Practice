@@ -36,16 +36,15 @@
  * If it matches you need to generate new 4-digit numbers.
  *  If there is not match (new number is unique) that add it to the myNumbers array.
  */
-const MIN = 1;
-const MAX = 9;
+const MIN = 1000;
+const MAX = 9999;
 
  const myNumbers = [
-   2,
-   7,
-   8,
-   5,
-   3,
-   4
+   2434,
+   7434,
+   8433,
+   5343,
+   3335
  ]
 
  let newRandomNumber;
@@ -53,10 +52,19 @@ function getRandomInt(min,max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function isNotUnique(nub) {
-  
+function isNotUnique(newRandomNub) {
+  // compare num with numbers is the myNumbers array
+  for (const number of myNumbers) {
+    if (number === newRandomNub) {
+      console.log("Number " + newRandomNub + " is Not Unique");
+      return true;
+    }
+  }
 }
 
 do {
   newRandomNumber = getRandomInt(MIN, MAX);
-} while (newRandomNumber);
+} while (isNotUnique(newRandomNumber));
+
+myNumbers.push(newRandomNumber);
+console.log(myNumbers);
